@@ -12,5 +12,9 @@ namespace MovieTickets.Models
 
         public string Bio {  get; set; }
 
+        public List<Actor_Movie> Actor_Movie { get; set; }
+
+
+
     }
 }
