@@ -28,6 +28,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+AppDBInitializer.seed(app);
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
