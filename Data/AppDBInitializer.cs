@@ -188,7 +188,7 @@ namespace MovieTickets.Data
                             EndDate = DateTime.Now.AddDays(40),
                             CinemaId = 5,
                             ProducerId = 5, // Assuming producer ID for Karan Johar
-                            MovieCategory = movieCategory.horror
+                            MovieCategory = movieCategory.Romance
                         }
                     });
                     context.SaveChanges();

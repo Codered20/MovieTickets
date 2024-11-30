@@ -6,6 +6,7 @@
         comedy,
         horror,
         sci_fi,
-        documentary
+        documentary,
+        Romance
     }
 }
