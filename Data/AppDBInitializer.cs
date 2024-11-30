@@ -191,6 +191,7 @@ namespace MovieTickets.Data
                             MovieCategory = movieCategory.horror
                         }
                     });
+                    context.SaveChanges();
                 }
 
                 // Actor_Movies
@@ -222,6 +223,7 @@ namespace MovieTickets.Data
                             MovieId = 3
                         }
                     });
+                    context.SaveChanges();
                 }
 
             }

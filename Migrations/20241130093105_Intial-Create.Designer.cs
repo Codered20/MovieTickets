@@ -12,8 +12,8 @@ using MovieTickets.Data;
 namespace MovieTickets.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20240826174514_FIrst")]
-    partial class FIrst
+    [Migration("20241130093105_Intial-Create")]
+    partial class IntialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
