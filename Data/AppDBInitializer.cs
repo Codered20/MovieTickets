@@ -164,7 +164,7 @@ namespace MovieTickets.Data
                             EndDate = DateTime.Now.AddDays(30),
                             CinemaId = 3,
                             ProducerId = 3, // Assuming producer ID for Karan Johar
-                            MovieCategory = movieCategory.comedy
+                            MovieCategory = movieCategory.biopic
                         },
                         new Movie
                         {
@@ -176,7 +176,7 @@ namespace MovieTickets.Data
                             EndDate = DateTime.Now.AddDays(23),
                             CinemaId = 4,
                             ProducerId = 4, // Assuming producer ID for Karan Johar
-                            MovieCategory = movieCategory.sci_fi
+                            MovieCategory = movieCategory.comedy
                         },
                         new Movie
                         {
@@ -188,7 +188,7 @@ namespace MovieTickets.Data
                             EndDate = DateTime.Now.AddDays(40),
                             CinemaId = 5,
                             ProducerId = 5, // Assuming producer ID for Karan Johar
-                            MovieCategory = movieCategory.Romance
+                            MovieCategory = movieCategory.romance
                         }
                     });
                     context.SaveChanges();

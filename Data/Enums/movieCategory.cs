@@ -7,6 +7,7 @@
         horror,
         sci_fi,
         documentary,
-        Romance
+        romance,
+        biopic
     }
 }
